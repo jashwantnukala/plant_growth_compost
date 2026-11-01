@@ -76,10 +76,3 @@ To install locally: `pip install numpy scipy matplotlib jupyter`
 In this simulated sample, the mean height after compost is significantly different from (and higher than) the height before, at the 5% level. All 10 plants show positive growth and the confidence interval does not contain 0.
 
 Limitations: the data is made up, so the strong result only comes from how the values were written. There is also no control group, so even with real data this test would not prove that compost caused the growth, because normal growth over time, watering, weather or sunlight could also explain it. A sample of 10 is small too.
-
-## References
-- SciPy, `scipy.stats.ttest_rel`: https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_rel.html
-- SciPy, `scipy.stats.shapiro`: https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.shapiro.html
-- NumPy, `numpy.std`: https://numpy.org/doc/stable/reference/generated/numpy.std.html
-- Matplotlib, `pyplot.boxplot`: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.boxplot.html
-- Wikipedia, Student's t-test: https://en.wikipedia.org/wiki/Student%27s_t-test
